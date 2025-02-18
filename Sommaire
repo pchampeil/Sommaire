@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sommaire réductible</title>
+    <style>
+        details {
+            font-family: Arial, sans-serif;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        summary {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: none;
+        }
+        li a {
+            text-decoration: none;
+            color: blue;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <details open>
+        <summary>Sommaire</summary>
+        <ul>
+            <li><a href="#section1">Introduction</a></li>
+            <li><a href="#section2">Chapitre 1</a></li>
+            <li><a href="#section3">Chapitre 2</a></li>
+            <li><a href="#section4">Conclusion</a></li>
+        </ul>
+    </details>
+
+</body>
+</html>
